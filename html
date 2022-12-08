@@ -1,0 +1,486 @@
+<html>
+  <head>
+    <!--    Įsikeliama įkonų biblioteka iš fontawesome     -->
+    <script src="https://kit.fontawesome.com/9f9d3d7706.js" crossorigin="anonymous">
+      
+     <!--    Dropdown meniu kūrimas      -->
+      
+    let dropdown = document.querySelector('.dropdown');
+      dropdown.onclick = function(){
+        
+        dropdown.classList.toggle("active");
+      }
+      
+    </script>
+     <script> src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta name= "viewport" content="width=device-width, initial-scale=1">
+    <style>
+.checked {
+  color: orange;
+}
+      .fa-star {
+  color: white;
+}
+      .fa-star-half{
+         color: white;
+      }
+
+
+</style>
+  </head>
+<body>
+
+<div class="pagrindas">
+  
+    
+  
+    <div class="logo">
+                <img src="https://assets.codepen.io/9068222/Logo.PNG" alt=""                         width="180" height="100" class = "logopic"/>
+       </div>
+  
+  
+  
+     <!--    Visas puslapio dizainas suskaldomas į dvi dalis. mainup kur bus virsutine dalis ir maindown kur bus apatinė dalis      -->
+  
+
+      <div class="mainup">
+        
+            <!--    Kadangi produktų nuotraukos skiriasi, todėl reikia sukurti atskiras div klases desktop nuotraukai ir telefono nuotraukai     --> 
+          
+                  <div class="mainproduct1">
+             
+                  <img src="https://assets.codepen.io/9068222/Img.Desktop.jpg"                        alt="Trulli" width="300" height="200" class = "mainpic"/>
+  
+                   </div>
+                  <div class="desktopmainproduct1">
+             
+                  <img src="https://assets.codepen.io/9068222/Img.Desktop.jpg"                        alt="Trulli" width="850" height="480"/>
+  
+                    </div>
+                     <p class="box"> 
+   
+               <!--    Čia talpinamas visas virsutinis tekstas iki kainų    -->    
+                     <div class="mainuptekstas">
+          <!--    Reviews buvo panaudojama žvaigždutės įkonos o poto sukuriamas stilius. Taip pat desktop ir telefono stiliai skiriasi todėl į tai buvo atsižvelgta    --> 
+                        <div class="review">
+                          
+                          <span class="fa fa-star checked" style="color:orange;"> </span>
+                          <span class="fa fa-star checked" style="color:orange;"></span>
+                          <span class="fa fa-star checked" style="color:orange;"></span>
+                          <span class="fa fa-star checked" style="color:orange;"></span>
+                         <i class="fa fa-star-half checked" style="color:orange;" aria-hidden="true"></i>
+                           <span id="text">More than 50k happy customers</span>
+                          
+                          
+      </div> 
+          <div class="mobilereview">
+            <i class="fa-solid fa-star"></i>                  
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star-half"></i>
+                           <span id="text">More than 50k happy customers</span>
+                          
+                          
+      </div> 
+         
+            <!--    Toliau virsutinė dalis skaidoma į kelias dalis: aprašyma (aprašoma prekė) ir sudetį (kokie dalykai susideda prekėje)   -->   
+         
+              <div class="aprasymas">
+            
+                                    <div class="aprasymasantraste">
+                                    <h1>NERSWAX CLEANING KIT BUNDLE</h2>
+                          
+                          
+                                        </div> 
+                          
+                                        <div class="aprasymasdestymas">
+         
+                                            <div class="d1">
+          
+                                                <i class="fa-regular fa-circle-check"></i>
+                                              <span id="text">Magical clean for your sunnies, specs and screens!</span>
+          
+  
+</div> 
+                                      
+                                        <div class="d2">
+          
+                                                <i class="fa-regular fa-circle-check"></i>
+                                              <span id="text">Organic Ingredients specially formulated to keep your glasses in place while  you live your life.</span>
+          
+  
+</div> 
+                                      
+                                                                              <div class="d3">
+          
+                                                <i class="fa-regular fa-circle-check"></i>
+                                              <span id="text">Create a layer of friction between your glasses and your skin.</span>
+          
+  
+</div> 
+                                      
+                                                                                                                    <div class="d4">
+          
+                                                <i class="fa-regular fa-circle-check"></i>
+                                              <span id="text">Microfiber cloths are made from recycled plastic  water bottles</span>
+          
+  
+</div> 
+                          
+      </div> 
+                          
+      </div> 
+     <!--    Kadangi kitos įkonėlės buvo premium, todėl buvo pasinaudota nemokamos versijos numeravimo įkonomis    -->    
+                        <div class="sudetis">
+         
+                          
+                                  <div class="sudetisantraste">
+          <h1>INSIDE THE BUNDLE:</h2>
+      </div> 
+                          
+                           <div class="sudetisdestymas">
+          <div class="sd1">
+                            <i class="fa-solid fa-1"></i>
+                               <span id="text">Nerdwax slimline single</span>
+           
+                    <div class="kaina1">
+              <p><b>($10)</b></p>
+                </div>  
+                  </div>   
+                          
+                             
+                          <div class="sd2">    
+                              <i class="fa-solid fa-2"></i>
+                               <span id="text">Magic drops refill</span>
+                              <div class="kaina2">
+              <p><b>($7)</b></p>
+                </div> 
+                               </div>  
+                             
+        <div class="sd3"> 
+                                           <i class="fa-solid fa-3"></i>
+                               <span id="text">Magic drops</span>
+                                <div class="kaina3">
+              <p><b>($8)</b></p>
+                </div> 
+                               </div>  
+            
+                             
+                              <div class="sd4"> 
+                                           <i class="fa-solid fa-4"></i>
+                               <span id="text">Clip-a-cloth</span>
+                                    <div class="kaina4">
+              <p><b>($2)</b></p>
+                </div> 
+                          
+                                
+                                </div> 
+               
+                                <div class="sd5"> 
+                                           <i class="fa-solid fa-5"></i>
+                               <span id="text">Tardis herringbone - secretly nerdy cleaning cloth</span>
+                                  <div class="kaina5">
+              <p><b>($15)</b></p>
+                </div>    
+                             
+                             </div>
+                                               
+                               </div> 
+                             
+           
+      </div> 
+                       <!--    Čia prasideda kainos div klasė   -->         
+      </div> 
+          <div class="kainoslangas">
+            
+                <!--    Linijoms nubrėžti pasitelkta hr   -->  
+         <hr class="perpendicular-line">
+      <hr class="line">
+         
+                        <div class="mainkaina">
+                         <a><i>Only: </i></a>
+          <div class="senakaina">
+                 <a>$42.00</a>          
+         
+      </div> 
+                                    <div class="naujakaina">
+                          <a><b>$30.00</b></a>  
+         
+      </div> 
+                                                        <div class="kainauzrasas">
+                <p><i>+ free international shipping</i></p>          
+         
+      </div> 
+      </div> 
+              </div> 
+             <!--    Sukuriamas mygtukas   -->  
+                        <div class="mygtukas">
+                          
+         <button class="mygt" > GRAB MINE </button>
+     
+         </div> 
+         
+ </div> 
+    <!--    Čia prasideda antroji - apatinė dalis   -->  
+   <div class="maindown">
+     
+      <div class="more">
+                  <p><b>MORE DETAILED LOOK INSIDE</b></p>
+                 </div> 
+      <hr class="perpendicular-line2">
+    <!--    Sukuriamos pagrindinės antraštės   -->  
+          <div class="maindownantrastes">
+ 
+            <h3 class ="menuselect"  onclick=pirmas();>NERDWAX SLIMLINE SINGLE</h3>
+             <h3 class ="menuselect" onclick=antras();>MAGIC DROPS + REFILL</h3>
+             <h3 class ="menuselect" onclick=trecias();>CLIP-A-CLOTH</h3>
+             <h3 class ="menuselect" onclick=ketvirtas();>TARDIS HERRINGBONE - SECRETLY NERDY CLEANING CLOTH</h3>
+            </div>
+         <!--   Tos pačios antraštės sukurtos telefoninei versijai, dėl drop down meniu   -->  
+             <div class="mobilemaindownantrastes">
+
+            <h3 class ="menuselect">NERDWAX SLIMLINE SINGLE</h3>
+             <h3 class ="menuselect">MAGIC DROPS + REFILL</h3>
+             <h3 class ="menuselect">CLIP-A-CLOTH</h3>
+             <h3 class ="menuselect">TARDIS HERRINGBONE - SECRETLY NERDY CLEANING CLOTH</h3>
+                  
+ </div>
+     
+     
+     <!--   Visas pirmosios prekės content (nuotraukos, aprašymai) kuriamas čia ir priskiriamos klasės. Savo klasę turi kiekvienas objektas   -->  
+     
+ <div class="content">
+                  <div class="sliderwrapper"> 
+                    
+                   <div  class="data">
+                     
+                            
+                   <div id="nuotraukos" class="slidermainpicture1">              
+                                
+    <img src="https://assets.codepen.io/9068222/Image1.jpg" alt=""  width="700" height="500" />
+                </div>
+                     
+                   <div id="nuotraukos" class="mobileslidermainpicture1"> 
+                     <img src="https://assets.codepen.io/9068222/Mask+Group+9.jpg" alt=""  width="160" height="380" />
+                     </div> 
+                     
+                     
+                     
+                     
+                       <div id="produktasnr1" class="sliderreview1">
+                          
+                          <span class="fa fa-star checked" style="color:orange;"></span>
+                                                   <span class="fa fa-star checked" style="color:orange;"></span>
+                                                   <span class="fa fa-star checked" style="color:orange;"></span>
+                                                   <span class="fa fa-star checked" style="color:orange;"></span>
+                         
+                         <i class="fa fa-star-half checked" style="color:orange;" aria-hidden="true"></i>
+                           <span id="text">4.4/5</span> 
+                                   </div>
+                      <div class="prod1textslider">
+                     
+                        <span class="textslider1">This thinner, slant-tipped container provides ease if application once only dreamed of!</span>
+                    
+                     
+                        <span class="textslider1">Nerdwax is a beeswax-based blend of All Natural and Certified Organic Ingredient specially formulated to keep your glasses in place while you live your life</span>
+                     
+                         <span class="textslider1">Nerdwax works  by creating a layer of friction between your glasses and your skin. So it dosent matter what type of glasses you have, as long as they fit properly nerdwax will keep them in place! It's also super easy to apply: Simply rub nerdwax on the nose pads of your favorite specs or sunnies and enjoy slip free bliss </span>
+                     
+                                             <span class="textslider1">We pride ourselves in our commitment to using only the best All-Natural, Cosmetic Grade Ingredients.</span>
+                                 <span class="textslider1">We use Certified Organic and Sustainably Sourced products whenever possible.</span>
+                     
+                     <span class="prod1specialtextslider1">Ingredients: Beeswax, Coconut Oil, Gum Rosin</span>
+</div>
+              <!--   Antrosios prekės content  -->         
+                 </div> 
+                  
+                 <div class="sliderItem2">
+                     
+                              <div class="sliderreview2">
+                          
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                         <i class="fa fa-star-half checked" aria-hidden="true"></i>
+                           <span id="text">4.4/4.5</span> 
+                                   </div>
+                       <div id="nuotraukos" class="slidermainpicture2"> 
+                                
+                                <img src="https://assets.codepen.io/9068222/Group+13.jpg" alt="" width="700" height="500" />
+ 
+                          </div>
+                       <div class="prod2textslider">
+                        <span class="textslider2">Nerdwax Magic Drops are guaranteed to provide a magical clean for your sunnies, specs and screens!</span>
+                    
+                     
+                        <span class="textslider2">Just 1-2 little drops of the magic forumla and wipe clean with the included nerdwax Microfiber cloth.</span>
+                     
+                         <span class="textslider2">Next thing you know you'll be singing to the heavens... oh oh it's magic </span>
+                    
+                     <span class="prod2specialtextslider1"> Magic drops net wt. 0.17oz/5ml </span>
+                         
+                                            <span class="prod2specialtextslider1">Magic drops refill net wt. 2oz/59ml</span>
+                         </div>
+                       
+                       </div> 
+                    
+                      <!--   Kitų prekių content  -->
+                    
+                      <!--   Gaila, bet neišėjo sukurti funkcionalumo su prekėmis. Buvo bandyta kurti su javascript, kaip slider, kuris pakeistu informacija.Taip pat buvo bandoma sukurti funkcijas kurios suveiktu paspaudžiant ant antraštės su onclick parametru. 
+
+
+
+
+
+
+                           
+                     <div class="sliderItem">
+                     
+                              <div class="sliderreview3">
+                          
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                         <i class="fa fa-star-half checked" aria-hidden="true"></i>
+                           <span id="text">4.4/4.5</span> 
+                                   </div>
+                      <div class="slidermainpicture3"> 
+                       
+                      <img src="https://assets.codepen.io/9068222/Group+14.jpg" alt=""  width="500" height="200" />          
+
+                          </div> 
+                       <div class="prod3textslider">
+                        <span class="textslider3">Slap this baby onto one our Secretly Nerdy microfiber cloths, clip it to your bag, and you're good to go!</span>
+                    
+                     
+                        <span class="textslider3">Holds on nice and tight so you don't have to worry about losing your cloth.</span>
+                      
+                 </div>
+                       </div>
+                    
+                                        <div class="sliderItem">
+                     
+                              <div class="sliderreview4">
+                          
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                         <i class="fa fa-star-half checked" aria-hidden="true"></i>
+                           <span id="text">4.4/4.5</span> 
+                                   </div>
+                <div class="slidermainpicture4">                  
+<img src="https://assets.codepen.io/9068222/Group+15.jpg" alt=""  width="700" height="350" />
+ </div>
+                      <div class="prod4textslider"> 
+                        <span class="textslider4">There's a lot of things you need to get across this universe. Warp drive... wormhole refractors...</span>
+                    
+                     
+                        <span class="textslider4">You know the thing you need most of all? A blue herringbone cleaning cloth that will leave your spectacles spick and span.</span>
+                     
+                         <span class="textslider4">All Secretly Nerdy mircrofiber cloths are made from recycled plastic water bootles and guaranteed to remove Nerdwax from lenses.</span>
+                    
+                     <span class="specialtextslider4">Dimensions: 12" X 12"</span>
+
+                       
+                       </div> 
+                                           </div> -->
+                    
+                    <script>
+                      
+                        <!--   Nesekmingi funkcijų kūrimai kurie leistu su onclick pakeisti prekių nuotraukas   -->
+    function pirmas(){
+        document.getElementById('nuotraukos')
+        .src="https://assets.codepen.io/9068222/Mask+Group+9.jpg";
+      
+    }
+     
+    function antras(){
+        document.getElementById('nuotraukos')
+        .src="https://assets.codepen.io/9068222/Group+13.jpg";
+       
+    }
+                         function trecias(){
+        document.getElementById('nuotraukos')
+        .src="img/photo2.jpg";
+        document.getElementById('message')
+        .innerHTML="Bye! GeeksforGeeks people";
+    }
+                         function ketvirtas(){
+        document.getElementById('nuotraukos')
+        .src="img/photo2.jpg";
+        document.getElementById('message')
+        .innerHTML="Bye! GeeksforGeeks people";
+    }
+                      
+</script>
+                        </div> 
+                  
+                 </div> 
+     
+     <!--   Duomenų pakeitimas dropdown langelyje. Kai pasirenkama prekė, langelis rodo būtent pasirinktą prekę  -->  
+     
+      <div class="dropdown">
+                <script>  
+            function show (a){
+       document.querySelector(".text02").value = a;
+ }
+</script>
+        
+         <input type="text" class="text02" readonly placeholder = "Dropdown menu">
+       
+         <div id="products" class="option">
+         
+             <!--  Dropdown antraščiu kūrimas.  -->
+           
+           <div value="slimline" id="produktasnr1" class="option1">
+            <div onclick ="show('NERDWAX SLIMLINE SINGLE')">NERDWAX SLIMLINE SINGLE</div>
+             </div>
+            <div value="magicdrops" id="produktasnr2" class="option2">
+             <div onclick= "show('MAGIC DROPS + REFILL')"> MAGIC DROPS + REFILL</div>
+              </div>
+             <div value="clipacloth" id="produktasnr3" class="option3">
+              <div onclick= "show('CLIP-A-CLOTH')">CLIP-A-CLOTH</div>
+                </div>
+           <div value="cleaningcloth" id="produktasnr4" class="option4">
+              <div onclick= "show('TARDIS HERRINGBONE - SECRETLY NERDY CLEANING CLOTH')">TARDIS HERRINGBONE - SECRETLY NERDY CLEANING CLOTH</div>
+   
+           </div>
+
+             <!--   Paspaudus ant dropdown langelio jis pasidaro active. Tai leidžia ikonai pakeisti savo pusę ir išskleidžia pasirinkimus   -->
+            <script>
+       let dropdown = document.querySelector('.dropdown');
+      dropdown.onclick = function(){
+        
+        dropdown.classList.toggle("active");
+      }
+              
+              
+              
+              </script>
+
+    
+
+    
+    </div>
+       </div>
+     
+     
+     
+     
+</div>
+  
+  
+  
+  
+  
+     </div> 
+  
+
+ 
+  
+</body>
+</html>
