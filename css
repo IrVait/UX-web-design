@@ -1,0 +1,897 @@
+/*
+Čia sukuriamas @media desktop versijai
+*/
+@media screen and (min-width: 532px) {
+  
+
+  
+.logo{
+  position: relative;
+     margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+  .mainpic{
+display: block;
+width: 850px;
+height:500px;
+}
+    .box{
+  display: inline-block;
+    height: 200px;
+  background: white;
+position:relative;   
+     margin: auto;
+  width: 100%;
+    margin:0;
+    padding:0;
+      display:none;
+    
+  }
+.mainup{
+  top:30px;
+  position:relative;
+}
+.mainproduct1{
+  
+absolute;
+  margin-left: -10px;
+  display:none;
+
+}
+  .desktopmainproduct1{
+    margin-left: -10px;
+  }
+  
+  /*
+Mygtuko stiliaus aprašymas
+*/
+.mygt{
+    background-color: #e8c61e;
+  border: none;
+  color: white;
+  padding: 15px 110px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
+  font-family: Montserrat, sans-serif;
+  top:-485px;
+   margin-left: 60%;
+
+}
+.mainuptekstas{
+   position: relative;
+font-family: Montserrat, sans-serif;
+   font-size: 10px;
+  margin-left: 60%;
+  top: -480px;
+}
+.aprasymasantraste{
+ margin-bottom: -15px;
+   font-size: 9px;
+}
+
+    /*
+Tam kad tekstas nebūtu per ilgas, buvo pasinaudota width ir word-wrap stiliais
+*/
+  
+.aprasymasdestymas{
+  font-size: 12px;
+  width: 300px;
+  word-wrap: break-word;
+  
+  
+}
+
+.fa-circle-check{
+  font-size: 20px;
+  margin-top: 12px;
+  
+     /*
+Kadangi numeravimo įkonų parametrai skiriasi, todėl stilių aprašymas skiriasi taip pat
+*/ 
+}
+.fa-1{
+  font-size: 15px;
+  margin-left: -2px;
+   margin-right: 10px;
+    margin-bottom: 25px;
+  
+  
+}
+
+.fa-2{
+  font-size: 15px;
+  margin-left: -3px;
+    margin-top:0px;
+   margin-right: 8px;
+  
+}
+
+.fa-3{
+  font-size: 15px;
+  margin-left: -5px;
+    margin-top:10px;
+   margin-right: 4px;
+  
+}
+
+.fa-4{
+  font-size: 15px;
+  margin-left: -2px;
+    margin-top:10px;
+   margin-right: 5px;
+  
+}
+
+.fa-5{
+  font-size: 15px;
+  margin-left: px;
+    margin-top:10px;
+   margin-right: 7px;
+}
+
+.sudetisantraste{
+  
+  font-size: 8px;
+}
+.sudetisdestymas{
+ 
+font-size:12px;
+    width: 280px;
+  word-wrap: break-word;
+   margin-left: 7px;
+}
+  
+  .sd1{
+    margin-bottom: -15px;
+  }
+  .sd2{
+    margin-bottom: -5px;
+  }
+  
+   .sd3{
+    margin-bottom: -5px;
+  }
+     .sd4{
+    margin-bottom: -5px;
+  }
+  
+       /*
+Tam kad kainos liktu toje pačioje eilutėje buvo pasinaudota display:inline block kuris viska sustato į 1 eilę
+*/ 
+.kaina1{
+  
+     position:relative;
+      display: inline-block;
+  
+ 
+}
+
+.kaina2{
+  
+     position:relative;
+      display: inline-block;
+ 
+}
+
+.kaina3{
+  
+     position:relative;
+      display: inline-block;
+ 
+}
+.kaina4{
+  
+     position:relative;
+      display: inline-block;
+ 
+}
+.kaina5{
+  
+     position:relative;
+      display: inline-block;
+  
+ 
+}
+       /*
+Sukurta daug kainų stilių nes kiekviena turi skirtinga
+*/ 
+.mainkaina{
+  font-size:13px;
+  text-align: center;
+}
+.senakaina{
+    text-decoration: line-through;
+  display: inline-block;
+margin-left:2px;
+}
+  .kainoslangas{
+    position:relative;
+      font-size:12px;
+    width: 280px;
+  word-wrap: break-word;
+    top:-485px;
+    margin-left:60.5%;
+    font-family: Montserrat, sans-serif;
+  }
+.perpendicular-line {
+ width: 110%;
+  border-color: #black;
+   border-style: solid;
+  position:relative;
+}
+.naujakaina{
+   display: inline-block;
+  color:#e8c61e;
+   font-size:15px;
+  margin-left:2px;
+  
+}
+.kainauzrasas{
+   font-size:8px;
+}
+.maindown{
+  
+ position: relative;
+  font-family: Montserrat, sans-serif;
+    text-align: center;
+  top:-420px;
+  
+}
+
+.more{
+     font-size:20px;
+  text-align: center;
+  
+}
+.perpendicular-line2 {
+ width: 80%;
+  margin-bottom: 3%;
+  border-color: #black;
+   border-style: solid;
+}
+         /*
+Tvarkingam antasčiu išdėstymui buvo panaudotas grid template ir išskaidytas į 4 puses
+*/ 
+.maindownantrastes{
+ text-align: center;
+  display: grid;
+   column-gap: 0px;
+  grid-template-columns: auto auto auto auto;
+     margin-left:8%;
+   margin-right:8%;
+  margin-top:-20px;
+}
+.menuselect{
+
+    font-size:15px;
+    font-weight : bald;
+  cursor: pointer;
+  hover:#e8c61e;
+}
+           /*
+Nuvedus pelę ant antraščių, jų spalvos pasikeičia į gelsvą
+*/ 
+  .menuselect:hover{
+color:#e8c61e;
+    }
+.mdantraste2{
+   display: inline-block;
+    font-size:12px;
+  
+}
+.mdantraste3{
+   display: inline-block;
+    font-size:12px;
+  
+}
+.mdantraste4{
+   display: inline-block;
+    font-size:12px;
+  
+}
+
+
+
+.sliderwrapper{
+  display:flex;
+  width: 100vw;
+}
+.sliderItem{
+  width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+           /*
+Prekių nuotraukų stilių aprašymas - nuotraukos
+*/ 
+.slidermainpicture1{
+  position:relative;
+  left: 55%;
+  top:6.5%;
+}
+.slidermainpicture2{
+  position:absolute;
+  left: 100%;
+  top:6.5%;
+}
+.slidermainpicture3{
+  position:absolute;
+  left: 20%;
+  top:6.5%;
+}
+.slidermainpicture4{
+  position:absolute;
+  left: 20%;
+  top:6.5%;
+}
+             /*
+Prekių nuotraukų stilių aprašymas - žvaigždučių reitingas
+*/ 
+.sliderreview1{
+ position:relative;
+  font-size:8px;
+   left: 450px;
+    color: black;
+  top:-400px;
+}
+.sliderreview2{
+  position:absolute;
+  font-size:8px;
+   left: 100%;
+  top:20%;
+}
+.sliderreview3{
+  position:absolute;
+  font-size:8px;
+   left: 45%;
+  top:20%;
+}
+.sliderreview4{
+  position:absolute;
+  font-size:8px;
+   left: 45%;
+  top:20%;
+}
+               /*
+Prekių nuotraukų stilių aprašymas - tekstas
+*/ 
+.prod1textslider{
+    font-size:12px;
+  position:absolute;
+ text-align: left;
+  display: grid;
+   row-gap: 28px;
+  grid-template-columns: 400px;
+     margin-left:15%;
+  top:245px;
+  left:520px;
+}
+.prod2textslider{
+    font-size:12px;
+  position:absolute;
+ text-align: left;
+  display: grid;
+   row-gap: 28px;
+  grid-template-columns: 400px;
+     margin-left:15%;
+  left:100%;
+  margin-top:470px;
+}
+.prod3textslider{
+    font-size:12px;
+  position:absolute;
+ text-align: left;
+  display: grid;
+   row-gap: 28px;
+  grid-template-columns: 400px;
+     margin-left:15%;
+  margin-top:80px;
+}
+.prod4textslider{
+    font-size:12px;
+  position:absolute;
+ text-align: left;
+  display: grid;
+   row-gap: 28px;
+  grid-template-columns: 400px;
+     margin-left:15%;
+  margin-top:80px;
+}
+                 /*
+Prekių nuotraukų stilių aprašymas - patamsitas aprašymas
+*/ 
+.prod1specialtextslider1{
+  font-size:12px;
+    font-weight : bold;
+    position:absolute;
+  top:340px;
+   margin-bottom:-200px;
+}
+
+.prod2specialtextslider1{
+  font-size:12px;
+    font-weight:bold;
+  top:0px;
+   text-align: left;
+   display: grid;
+   row-gap: 5px;
+   position:relative;
+  grid-template-columns: 300px;
+  margin-top:-10px;
+}
+.prod4specialtextslider1{
+  font-size:12px;
+    font-weight:bold;
+    position:absolute;
+  top:340px;
+}
+.slider.Item:nth-child(1){
+  background-color: yellow;
+}
+                   /*
+Nenorint kad būtu telefono versijos obejktų (nuotraukos, antraštės) pasinaudojama display:none
+*/ 
+.mobileslidermainpicture1{
+   display:none;
+  }
+
+.mobilemaindownantrastes{
+  display:none;
+}
+.dropdown{
+  display:none;
+  }
+.mobilereview{
+  display:none;
+}
+  
+    .line{
+    position: relative;
+     top:265px;
+    width: 80%;
+     border-style: solid;
+color: black;
+      display:none;
+  }  
+}
+
+                     /*
+Čia prasideda telefono versija. Sumažinamas ekranas iki max 531px (plotis lygus minimaliam browser langui)
+*/ 
+@media screen and (max-width: 531px) 
+{
+                      /*
+Panaikinamos paraštės, nes jos netinka dizainui.
+*/  
+  .html,body {
+    margin:0;
+    padding:0;
+     overflow-x: hidden;
+}
+                       /*
+Dropdown aprašymas
+*/ 
+ .dropdown{
+      height: 50px;
+left:30px;
+  position: absolute;
+width:70%;
+   top:40px;
+   border:none;
+   outline:none;
+      word-wrap: break-word;
+  }
+   
+  .menuselect:hover{
+ color:#e8c61e; 
+  }  
+  .menuselect{
+    margin-left:15px;
+  } 
+                         /*
+Dropdown eilutės aprašymas - panaikinamos matomos ribos bei sutvarkoma pozicija.
+*/ 
+  .dropdown input{
+   top: 0px;
+  left: 0px;
+  width: 100%;
+    height:10px;
+  cursor: pointer;
+  padding: 20px 20px;
+  left:20px;
+  position: absolute;
+    background:none;
+       border:none;
+   outline:none;
+       word-wrap: break-word;
+    
+  }
+                         /*
+Dropdown aprašymas prieš paspaudimą (įkona įeina taip pat)
+*/ 
+  .dropdown:before{
+  font-family: "Font Awesome 5 Free";
+    font-weight: 200;
+    content: "\f358";
+    top:15px;
+    right:-50px;
+    font-size:25px;
+    position:absolute;
+    color:#e8c61e;
+  }
+                           /*
+Dropdown aprašymas po paspaudimo (įkona įeina taip pat)
+*/ 
+  .dropdown.active:before{
+    
+     transform:rotate(180deg);
+  }
+                             /*
+Dropdown pasirinkimų aprašymas, sukuriama balta lentelė, bei šešėliai. Padaroma kad nesimatytų neaktyvinus.
+*/
+  .dropdown .option{
+    position:absolute;
+    width:115%;
+    background:white;
+    top:52px;
+    left:20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    border-radius:10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.25s;
+    
+    
+  }
+  .option{
+     font-size: 14px;
+    font-weight:700;
+  }
+                             /*
+Dropdown default bei jau pasirinkto teksto aprašymas. Pasirinktas tekstas nusispalvins
+*/
+.text02{
+     font-size: 14px;
+     margin-left:15px;
+    font-weight:700;
+ color:#e8c61e;
+  font-family: Montserrat, sans-serif;
+   width: 20px;
+    word-wrap: break-word;
+   position:absolute;
+  height:20px;
+  
+                             /*
+Nuvedus pelę ant pasirinkimų, jie nusispalvins geltonai
+*/  
+}
+  .option1:hover{
+color:#e8c61e;
+  }
+  .option2:hover{
+color:#e8c61e;
+  }
+  .option3:hover{
+color:#e8c61e;
+  }
+  .option4:hover{
+color:#e8c61e;
+  }
+                               /*
+Pasirinkimų pločių aprašymas
+*/
+.dropdown .option div{
+  padding: 5px 20px;
+}
+                               /*
+Padarius dropdown active, atsiranda lentelė su pasirinkimais
+*/
+.dropdown.active .option{
+     visibility: visible;
+     opacity: 1;
+}
+                                 /*
+Geltono kvadrato kuris yra po pagrindine nuotrauka aprašymas
+*/
+  .box{
+  display: inline-block;
+    height: 200px;
+  background: #e8c61e;
+position:relative;   
+     margin: auto;
+  width: 100%;
+    margin:0;
+    padding:0;
+    
+  }
+   .logo{
+  position: relative;
+     margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+                              /*
+Pagrindinės nuotraukos stilius
+*/ 
+    .mainpic{
+  display: block;
+  width: 102%;
+      height: 80%;
+      top:-20%;
+      left:-10px;
+      position: relative;
+}
+                                /* Viršutinės pusės aprašymo tekstas nuspalvintas baltai
+*/ 
+  .mainuptekstas{
+top:410px;
+left:10%; 
+ color:white;
+    font-size:12px;
+  position: absolute;
+    font-family: Montserrat, sans-serif;
+    
+  }
+  .review{
+    display:none;
+  }
+  .aprasymasantraste{
+     font-size:10px;
+  }
+  .aprasymasdestymas{
+    font-weight:300;
+    margin-right: 50px;
+     margin-top:-15px;
+    
+  }
+  .slidermainpicture1{
+    display: none;
+     
+  }
+
+  .mobilereview{
+    color:white;
+     font-size:8px;
+    top-margin:15px;
+     position: absolute;
+    
+  } 
+  .fa-star checked2{
+    color:white;
+  }
+  .fa-circle-check{
+  font-size: 20px;
+  margin-top: 12px;
+     margin-right: 10px;
+  }
+                                  /* Priartinama apatinė pusė
+*/ 
+  .maindown{
+    top:520px;
+    
+  }
+  
+  .sudetis{ 
+ color:black;
+  position: relative;
+  }
+  .fa-1{
+  font-size: 20px;
+  margin-left: 5px;
+     margin-right: 10px;
+  
+  
+}
+
+.fa-2{
+  font-size: 20px;
+  margin-left: 5px;
+       margin-right: 10px;
+  
+}
+
+.fa-3{
+  font-size: 20px;
+  margin-left: 5px;
+       margin-right: 10px;
+  
+}
+
+.fa-4{
+  font-size: 20px;
+  margin-left: 5px;
+       margin-right: 10px;
+  
+}
+
+.fa-5{
+  font-size: 20px;
+  margin-left: 5px;
+       margin-right: 10px;
+  
+}
+ 
+  .sd5{
+     width: 240px;
+  }
+  .kaina1{
+   position:relative;
+      display: inline-block;
+  }
+   .kaina2{
+       position:relative;
+      display: inline-block;
+  }
+   .kaina3{
+      position:relative;
+      display: inline-block; 
+  }
+   .kaina4{
+       position:relative;
+      display: inline-block;
+  }
+    .kaina5{
+      position:relative;
+      display: inline-block;
+  }
+
+  .perpendicular-line{
+ position: relative;
+     top:900px;
+    width: 80%;
+     border-style: solid;
+    display:none;
+    
+    
+  }
+  .mainkaina{
+     position: relative;
+    color:black;
+     font-size:13px;
+  text-align: center;
+    top:270px;
+     font-family: Montserrat, sans-serif;
+    
+    
+  }
+  .naujakaina{
+   display: inline-block;
+  color:#e8c61e;
+   font-size:15px;
+  margin-left:2px;
+  }
+  .senakaina{
+        text-decoration: line-through;
+  display: inline-block;
+margin-left:2px;
+  }
+  .kainauzrasas{
+      font-size:8px;
+  }
+  .mygt{
+    background-color: #e8c61e;
+  border: none;
+  color: white;
+  padding: 15px 150px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: relative;
+     font-weight: 700;
+  box-shadow: 2px 9px 12px rgba(0, 0, 0, 0.15);
+  font-family: Montserrat, sans-serif;
+     white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+    top:300px;
+     margin: 0;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+  .line{
+    position: relative;
+     top:265px;
+    width: 80%;
+     border-style: solid;
+color: black;
+  }
+  .maindown{
+         font-family: Montserrat, sans-serif;
+    position:relative;
+    top:300px;
+    
+  }
+  .more{
+     font-size:20px;
+  text-align: center;
+  }
+
+  .perpendicular-line2{
+     position: relative;
+    width: 80%;
+     border-style: solid;
+color: black;
+    top:-10px;
+  }
+  /* Nereikalingiems objektams panaudojama display:none
+*/ 
+  .mobilemaindownantrastes{
+ cursor: pointer;
+      hover:#e8c61e;
+    display:none;
+  }
+    /* Produkto nuotrauka
+*/ 
+    .mobileslidermainpicture1{
+    position: relative;
+       top:415px;
+      
+  }
+  .maindownantrastes{
+    display:none;
+    
+  }
+
+  .sliderreview1{
+  position:relative;
+  font-size:8px;
+   left: 45%;
+    color: black;
+}
+      /* Produkto aprašymo tekstas
+*/ 
+  .prod1textslider{
+      font-size:12px;
+  position:relative;
+ text-align: left;
+  display: grid;
+   row-gap: 28px;
+  grid-template-columns: 400px;
+    top:50px;
+    word-break: normal;
+    
+  }
+  .textslider1{
+         width: 270px;
+    word-break: normal;
+     margin-left:52%;
+    position:relative;
+  }
+  .prod1specialtextslider1{
+         width: 270px;
+    word-break: normal;
+     margin-left:52%;
+     font-weight: 900;
+     padding-bottom: 50px;
+  }
+  .content{
+    top:-320px;
+    position:relative;
+  }
+.desktopmainproduct1{
+  display:none;
+}
+  .sliderItem2{
+    display:none;
+  }
+}
+
+
+  
+
+  
+  
+  
+  
